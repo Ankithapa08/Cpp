@@ -5,8 +5,8 @@ sort(nums2.begin(),nums2.end());
 int i=0,j=0;
 vector<int> res;
 while(i<nums1.size() and j<nums2.size()){
-  if(nums[i]==nums[j]){
-  res.push_back(nums1[i));
+  if(nums1[i]==nums2[j]){
+  res.push_back(nums1[i]);
  i++;
  j++;
 }
